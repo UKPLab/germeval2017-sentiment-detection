@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Copyright 2016
 Ubiquitous Knowledge Processing (UKP) Lab
-Technische UniversitÃ¤t Darmstadt
+Technische Universität Darmstadt
 
 -------------------------------------------------------------------------------
-Third party legal information
+Third party licensing information:
 
-
-
+BSD License:
+- sent2vec
