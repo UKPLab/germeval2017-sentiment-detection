@@ -1,7 +1,7 @@
 # UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection
 ## GermEval-2017 : Shared Task on Aspect-based Sentiment in Social Media Customer Feedback
 
-This repository contains information about how to use the sentence and word embeddings we used for our experiments for the shared task [[https://sites.google.com/view/germeval2017-absa/home][GermEval2017]] reported in Lee et al., *UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection*. 
+This repository contains information about how to use the sentence embeddings we used for our experiments for the shared task [[https://sites.google.com/view/germeval2017-absa/home][GermEval2017]] reported in Lee et al., *UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection*. 
 
 
 Please use the following citation:
@@ -45,10 +45,10 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 Due to a big file size the embeddings are not stored in this repository. You can find them here:
 
 * [https://public.ukp.informatik.tu-darmstadt.de/GermEval2017_Embeddings/] -- Sent2Vec embeddings (.bin) 
-* [https://public.ukp.informatik.tu-darmstadt.de/GermEval2017_Embeddings/] -- Word2Vec embeddings (.txt)
 
 The embeddings were trained on the shared task data, [[https://sites.google.com/site/rmyeid/projects/polyglot][Wikipedia data]], and Tweets from the [[https://spinningbytes.com/resources/germansentiment/][German Sentiment Corpus]].
 
+Embedding dimensions are 500, 700, and 1000, as specified in their names.
 
 ## Requirements
 
