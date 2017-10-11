@@ -1,7 +1,13 @@
 # UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection
 ## GermEval-2017 : Shared Task on Aspect-based Sentiment in Social Media Customer Feedback
 
-This is the repository to our experiments for the [GermEval2017 shared task](https://sites.google.com/view/germeval2017-absa/home) reported in Lee et al., *UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection*. We provide the German sentence embeddings trained with sent2vec using Wikipedia, Twitter, and the shared task data as well as information about how to use them. The base code for the ensemble classifier we used in subtasks A and B can be found [here](https://github.com/UKPLab/semeval2017-scienceie). For access to the multi-task learning framework we used for subtasks C and D, please contact us.
+This is the repository to our experiments for the [GermEval2017 shared task](https://sites.google.com/view/germeval2017-absa/home) reported in Lee et al., *UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection*. 
+
+We provide the German sentence embeddings trained with sent2vec using Wikipedia, Twitter, and the shared task data as well as information about how to use them. 
+
+The base code for the ensemble classifier we used in subtasks A and B can be found [here](https://github.com/UKPLab/semeval2017-scienceie). 
+
+For access to the multi-task learning framework we used for subtasks C and D, please contact us.
 
 
 Please use the following citation:
