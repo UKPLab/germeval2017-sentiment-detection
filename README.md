@@ -46,7 +46,7 @@ Due to a big file size the embeddings are not stored in this repository. You can
 
 * https://public.ukp.informatik.tu-darmstadt.de/GermEval2017_Embeddings/ -- Sent2Vec embeddings (.bin) 
 
-The embeddings were trained on the shared task data, [Wikipedia data](https://sites.google.com/site/rmyeid/projects/polyglot), and Tweets from the [German Sentiment Corpus](https://spinningbytes.com/resources/germansentiment/).
+The embeddings were trained on the [shared task data](https://sites.google.com/view/germeval2017-absa/data), [Wikipedia data](https://sites.google.com/site/rmyeid/projects/polyglot), and Tweets from the [German Sentiment Corpus](https://spinningbytes.com/resources/germansentiment/).
 
 Embedding dimensions are 500, 700, and 1000, as specified in their names.
 
