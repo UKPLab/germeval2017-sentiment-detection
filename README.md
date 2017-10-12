@@ -54,7 +54,9 @@ Due to a big file size the embeddings are not stored in this repository. You can
 
 The embeddings were trained on the [shared task data](https://sites.google.com/view/germeval2017-absa/data), [Wikipedia data](https://sites.google.com/site/rmyeid/projects/polyglot), and Tweets from the [German Sentiment Corpus](https://spinningbytes.com/resources/germansentiment/).
 
-Embedding dimensions are 500, 700, and 1000, as specified in their names.
+Embedding dimensions are 500, 700, and 1000, as specified in their names and were trained with the following parameters:
+-minCount 10 -epoch 5 -lr 0.2 -wordNgrams 2 -loss ns -neg 10 -thread 5 -t 0.0001 -dropoutK 2 -bucket 2000000
+
 
 ## Requirements
 
