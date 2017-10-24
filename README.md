@@ -18,7 +18,7 @@ Please use the following citation:
 	author = {Lee, Ji-Ung and Eger, Steffen and Daxenberger, Johannes and Gurevych, Iryna},
 	organization = {German Society for Computational Linguistics},
 	booktitle = {Proceedings of the  GSCL GermEval Shared Task on Aspect-based Sentiment in Social Media Customer Feedback},
-	pages = {(to appear)},
+	pages = {22--29},
 	month = sep,
 	year = {2017},
 	location = {Berlin, Germany},
