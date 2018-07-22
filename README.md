@@ -1,9 +1,8 @@
 # UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection
 ## GermEval-2017 : Shared Task on Aspect-based Sentiment in Social Media Customer Feedback
 
-This is the repository to our experiments for the [GermEval2017 shared task](https://sites.google.com/view/germeval2017-absa/home) reported in Lee et al., *[UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection](ftp://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/2017_GSCL_GermEval_Workshop_SharedTask.pdf)*.
+This is the repository to our experiments for the [GermEval2017 shared task](https://sites.google.com/view/germeval2017-absa/home) reported in Lee et al., *[UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection](https://duepublico.uni-duisburg-essen.de/servlets/DerivateServlet/Derivate-45683/GermEval2017_Proceedings.pdf)*.
 
-[ftp](ftp://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/2017_GSCL_GermEval_Workshop_SharedTask.pdf) 
 
 We provide the German sentence embeddings trained with sent2vec using Wikipedia, Twitter, and the shared task data as well as information about how to use them. 
 
