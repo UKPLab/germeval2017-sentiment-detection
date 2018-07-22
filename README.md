@@ -1,19 +1,19 @@
 # UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection
 ## GermEval-2017 : Shared Task on Aspect-based Sentiment in Social Media Customer Feedback
 
-This is the repository to our experiments for the [GermEval2017 shared task](https://sites.google.com/view/germeval2017-absa/home) reported in Lee et al., *[UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection](https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/2017/2017_GSCL_GermEval_Workshop_SharedTask.pdf)*. 
+This is the repository to our experiments for the [GermEval2017 shared task](https://sites.google.com/view/germeval2017-absa/home) reported in Lee et al., *[UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection](ftp://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/2017_GSCL_GermEval_Workshop_SharedTask.pdf)*. 
 
 We provide the German sentence embeddings trained with sent2vec using Wikipedia, Twitter, and the shared task data as well as information about how to use them. 
 
 The base code for the ensemble classifier we used in subtasks A and B can be found [here](https://github.com/UKPLab/semeval2017-scienceie). 
 
-For access to the multi-task learning framework we used for subtasks C and D, please contact us.
+For access to the multi-task learning framework we used for subtasks C and D, please contact us. Our implementation was based on [this](https://github.com/UKPLab/thesis2018-tk_mtl_sequence_tagging) TensorFlow framework.
 
 
 Please use the following citation:
 
 ```
-@inproceedings{TUD-CS-2017-0241,
+@inproceedings{Lee:2017,
 	title = {UKP TU-DA at GermEval 2017: Deep Learning for Aspect Based Sentiment Detection},
 	author = {Lee, Ji-Ung and Eger, Steffen and Daxenberger, Johannes and Gurevych, Iryna},
 	organization = {German Society for Computational Linguistics},
