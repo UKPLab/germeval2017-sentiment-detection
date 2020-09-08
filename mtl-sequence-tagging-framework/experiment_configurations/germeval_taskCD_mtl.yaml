@@ -1,0 +1,118 @@
+name: MTL_GERM_EVAL_TASKCD_IOB_POSTAGS_100U_ADADELTA_BATCH50
+num_runs: 1
+epochs: 30
+batch_size: 50
+optimizer: adadelta
+use_variational_dropout: True
+short_cut_connections: True
+tasks:
+  - name: TaskC_CATPOL
+    train_file:
+      path: ../data/experiments/germ_eval/final_set/train.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 2
+      encoding: utf8
+    dev_file:
+      path: ../data/experiments/germ_eval/final_set/dev.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 2
+      encoding: utf8
+    test_file:
+      path: ../data/experiments/germ_eval/final_set/test.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 2
+      encoding: utf8
+    output_layer: 1
+    eval_metrics:
+      - accuracy
+      - f1
+    classifier: CRF
+    data_format: CONLL
+    encoding: NONE
+    dropout_keep_probability: 0.8
+    use_bias: True
+    type: GENERIC
+  - name: TaskC_POL
+    train_file:
+      path: ../data/experiments/germ_eval/final_set/train.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 3
+      encoding: utf8
+    dev_file:
+      path: ../data/experiments/germ_eval/final_set/dev.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 3
+      encoding: utf8
+    test_file:
+      path: ../data/experiments/germ_eval/final_set/test.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 3
+      encoding: utf8
+    output_layer: 1
+    eval_metrics:
+      - accuracy
+      - f1
+    classifier: CRF
+    data_format: CONLL
+    encoding: NONE
+    dropout_keep_probability: 0.8
+    use_bias: True
+    type: GENERIC
+  - name: TaskCD_BIOCATPOL
+    train_file:
+      path: ../data/experiments/germ_eval/final_set/train.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 1
+      encoding: utf8
+    dev_file:
+      path: ../data/experiments/germ_eval/final_set/dev.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 1
+      encoding: utf8
+    test_file:
+      path: ../data/experiments/germ_eval/final_set/test.mtl.iob
+      column_separator: tab
+      word_column: 0
+      label_column: 1
+      encoding: utf8
+    output_layer: 0
+    eval_metrics:
+      - accuracy
+      - f1
+    classifier: CRF
+    data_format: CONLL
+    encoding: NONE
+    dropout_keep_probability: 0.8
+    use_bias: True
+    type: GENERIC
+early_stopping:
+  task_name: TaskCD_BIOCATPOL
+  metric: f1
+  patience: 10
+character_level_information:
+  network_type: LSTM
+  dimensionality: 30
+  hidden_units: 50
+eval_metrics:
+  - f1
+  - accuracy
+rnn_unit: LSTM
+rnn_dropout_input_keep_probability: 0.8
+rnn_dropout_output_keep_probability: 0.8
+rnn_dropout_state_keep_probability: 0.8
+use_bias: True
+units: 100
+word_dropout_keep_probability: 0.9
+embeddings:
+    - path: ../data/embeddings/postag_word2vec/twitter.wiki.germeval.all.100dim.mincount10.postag.vec.gz
+      encoding: utf8
+      size: 120
+      gzip: True

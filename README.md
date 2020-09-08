@@ -47,7 +47,12 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
-## Project structure
+## MTL for Tasks C and D
+
+The folder ```mtl-sequence-tagging-framework``` contains the code to run our experiments for tasks C and D (using multitask learning). Please follow the instructions in the [README.md](mtl-sequence-tagging-framework/README.md). We updated the code to be run with python 3.6 and Tensorflow 2.X.
+
+
+## Embeddings for Tasks A, B (and C)
 
 Due to a big file size the embeddings are not stored in this repository. You can find them here:
 

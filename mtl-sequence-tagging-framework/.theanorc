@@ -1,0 +1,4 @@
+[global]
+MP_NUM_THREADS=4
+openmp=True
+
