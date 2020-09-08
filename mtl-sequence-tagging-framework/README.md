@@ -12,7 +12,9 @@ The following provides a simple guideline to re-run the experiments with 100 dim
 
 ## Setup
 
-Note: to run ```./fetch_data.sh``` you may have to create the folder ```postag_word2vec``` in ```data/embeddings/```.
+Note: 
+* To run ```./fetch_data.sh``` you may have to create the folder ```postag_word2vec``` in ```data/embeddings/```.
+* The embeddings you can download on [TUdatalib](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2483) have been filtered to match the vocabulary of the dataset (to save storage space).  
 
 1. Download the data and embeddings:  
 
