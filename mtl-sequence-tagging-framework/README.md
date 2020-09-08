@@ -12,6 +12,8 @@ The following provides a simple guideline to re-run the experiments with 100 dim
 
 ## Setup
 
+Note: to run ```./fetch_data.sh``` you may have to create the folder ```postag_word2vec``` in ```data/embeddings/```.
+
 1. Download the data and embeddings:  
 
     ```./fetch_data.sh```
@@ -34,13 +36,13 @@ Configuration files can be found in ```experiment_configurations```. They are YA
 
 You can train a model via:
 
-> ```python main.py train <path-to-config>```
+```python main.py train <path-to-config>```
 
 ```main.py``` is located in ```/src```. For example, to run the experiment on task D using postagged embeddings do:
 
-> ```cd /src```
+```cd /src```
 
-> ```python main.py train ../experiment_configurations/germeval_taskD_iob_postags.yaml```
+```python main.py train ../experiment_configurations/germeval_taskD_iob_postags.yaml```
 
 That will generate a model in the ```/pkl``` folder and save the outputs to ```/out```.
 
@@ -49,7 +51,7 @@ That will generate a model in the ```/pkl``` folder and save the outputs to ```/
 
 You can evaluate models via:
 
-> ```python main.py eval <path-to-model> <path-to-config> ```
+```python main.py eval <path-to-model> <path-to-config> ```
 
 
 
