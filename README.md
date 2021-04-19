@@ -56,7 +56,8 @@ The folder ```mtl-sequence-tagging-framework``` contains the code to run our exp
 
 Due to a big file size the embeddings are not stored in this repository. You can find them here:
 
-* https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2483 -- Sent2Vec embeddings (.bin) 
+* [Embeddings in different sizes](https://public.ukp.informatik.tu-darmstadt.de/GermEval2017_Embeddings/) 
+* [Embeddings and data used for the submitted results](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2483)
 
 The embeddings were trained on the [shared task data](https://sites.google.com/view/germeval2017-absa/data), [Wikipedia data](https://sites.google.com/site/rmyeid/projects/polyglot), and Tweets from the [German Sentiment Corpus](https://spinningbytes.com/resources/germansentiment/).
 
